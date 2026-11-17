@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kod · @leventcodes</title>
+<meta name="description" content="Instagram'da paylaştığım animasyonun kaynak kodu. Kopyala, indir, kendin dene.">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Kod · @leventcodes">
+<meta property="og:image" content="https://leventefe06.github.io/assets/og.jpg">
+<link rel="stylesheet" href="/assets/stil.css">
+<link rel="stylesheet" href="/assets/kod.css">
+</head>
+<body class="kod-sayfasi">
+<!-- Bu dosya her kod klasöründe aynı. Yeni kod eklerken olduğu gibi kopyala. -->
+<header class="kod-bas">
+  <a class="geri" id="geri" href="/"></a>
+  <div class="kod-bilgi">
+    <h1 id="baslik"></h1>
+    <p id="dosya">index.html</p>
+  </div>
+  <div class="kod-eylemler">
+    <button class="eylem birincil" id="kopyala" type="button" disabled></button>
+    <a class="eylem" id="indir"></a>
+    <a class="eylem" id="izle"></a>
+  </div>
+</header>
+<pre class="kod-kutu"><code id="kod">Yükleniyor…</code></pre>
+<script src="/assets/veri.js"></script>
+<script src="/assets/ikonlar.js"></script>
+<script src="/assets/vurgu.js"></script>
+<script src="/assets/kod.js"></script>
+</body>
+</html>
